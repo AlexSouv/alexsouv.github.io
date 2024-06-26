@@ -1,2 +1,2 @@
 # alexsouv.github.io
-This is a sentence.
+This website to show and document my computer science projects, both school projects and personal.
