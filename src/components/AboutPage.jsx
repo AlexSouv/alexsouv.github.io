@@ -1,6 +1,7 @@
 import React from 'react';
 import me from "./images/me.jpg";
 import './AboutPage.css'; // optional: style this separately
+import Carousel from './CarouselGallery';
 
 function AboutPage() {
   return (
@@ -20,6 +21,10 @@ function AboutPage() {
           resume/portfolio oriented after graduating.
           <br />
         </p>
+
+        <div style={{ marginBottom: '50px'}}>
+          <Carousel />
+        </div>
       </main>
 
       <footer>
