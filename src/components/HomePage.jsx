@@ -25,7 +25,7 @@ const HomePage = () => {
         <div className="right-column">
           <section>
             <h2>Skills</h2>
-            <p>Languages: JavaScript, C, C++, Python, HTML/CSS</p>
+            <p>Languages: JavaScript, C, C++, Python, HTML/CSS, PHP</p>
             <p>Technologies: React, Git, Tailwind CSS, AWS </p>
           </section>
 
@@ -50,6 +50,20 @@ const HomePage = () => {
               </ul>
             </div>
 
+            <div className="resume-item">
+              <strong>
+                <a href="https://github.com/AlexSouv/contact-form-app" target="_blank" rel="noopener noreferrer">
+                  Contact Form Web App
+                </a>
+              </strong>{' '}
+              <em>**Currently working on</em>
+              <ul>
+                <li>Building a contact form web application as a personal project.</li>
+                <li>Built using React and PHP.</li>
+                <li>Plan for the usage of MySQL later on for backend.</li>
+              </ul>
+            </div>
+
 
             <div className="resume-item">
               <strong>2D Mobile Game</strong>
@@ -71,6 +85,7 @@ const HomePage = () => {
                 <li>Using Java, Gradle, and Docker for development.</li>
               </ul>
             </div>
+
           </section>
         </div>
       </div>
