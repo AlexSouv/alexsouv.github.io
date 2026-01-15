@@ -56,7 +56,7 @@ const HomePage = () => {
                   Contact Form Web App
                 </a>
               </strong>{' '}
-              <em>**Currently working on</em>
+              {/*<em>**Currently working on</em>*/}
               <ul>
                 <li>Building a contact form web application as a personal project.</li>
                 <li>Built using React and PHP.</li>
